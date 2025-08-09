@@ -34,3 +34,4 @@ class DocumentViewSet(viewsets.ModelViewSet):
         document.nombre_telechargements += 1
         document.save()
         return Response({'status': 'success'})
+        
